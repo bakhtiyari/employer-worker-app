@@ -1,0 +1,22 @@
+<div class="jumbotron text-center">
+    <h1 class="display-3">You are Registered!</h1>
+    <p class="lead"></p>
+    <hr class="m-y-md">
+    <p>View your employer profile:</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            {{#employer}}
+                <p>Name: {{name}}</p>
+                <p>Phone: {{phone}}</p>
+                <p>Email: {{email}}</p>
+                <p>Street: {{street}}</p>
+                <p>City: {{city}}</p>
+                <p>Zip Code: {{zipcode}}</p>
+                <p>Rating: {{rating}}</p>
+            {{/employer}}
+        </div>
+    </div>
+</div>
